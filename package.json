@@ -1,8 +1,8 @@
 {
-  "name": "example-giving-app",
+  "name": "example-nonprofit-search-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://everydotorg.github.io/example-giving-app",
+  "homepage": "https://everydotorg.github.io/example-nonprofit-search-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
