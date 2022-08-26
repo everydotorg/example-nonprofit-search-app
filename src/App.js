@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-// Request an apiKey from every.org/charity-api
+// Request an API Key from every.org/charity-api
 const apiKey = process.env.REACT_APP_API_KEY;
 
 function App() {
