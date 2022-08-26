@@ -34,9 +34,16 @@ function App() {
   }
   return (
     <div className="App">
-      <form>
-      <input placeholder="Search for a nonprofit!" type="search" name="search" value={searchValue} onChange={handleSearchInputChange}/>
-      </form>
+      <div className="Header">
+        <h1>My First React App</h1>
+        <h2>By: Alexander Worley</h2>
+        <h2>Nonprofit Search Bar using Every.org's API</h2>
+      </div>
+      <div className="Search">
+        <form>
+          <input placeholder="Search for a nonprofit!" type="search" name="search" value={searchValue} onChange={handleSearchInputChange}/>
+        </form>
+      </div>
       <ul>{searchResults.map(handleNonprofit)}</ul>
     </div>
   );
