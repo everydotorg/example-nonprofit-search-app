@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 
+// Request an apiKey from every.org/charity-api
+const apiKey = process.env.REACT_APP_API_KEY;
+
 function App() {
   const [searchValue, setSearchValue] = useState("");
   function handleSearchInputChange(event) {
@@ -13,7 +16,7 @@ function App() {
   }
   const [searchResults, setSearchResults] = useState([]);
   function setNewSearch(newSearchValue) {
-    fetch("https://partners.every.org/v0.2/search/" + newSearchValue + "?apiKey=5a2be079dc5a64d56dfae3786abe4543")
+    fetch("https://partners.every.org/v0.2/search/" + newSearchValue + "?apiKey=" + apiKey)
     .then(handleResult)
     .then(handleData);
   }
