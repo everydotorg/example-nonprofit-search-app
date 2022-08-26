@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/example-giving-app/static/css/main.b0c3638e.css",
-    "main.js": "/example-giving-app/static/js/main.51939f2e.js",
-    "static/js/787.d5d9ebd6.chunk.js": "/example-giving-app/static/js/787.d5d9ebd6.chunk.js",
-    "index.html": "/example-giving-app/index.html",
-    "main.b0c3638e.css.map": "/example-giving-app/static/css/main.b0c3638e.css.map",
-    "main.51939f2e.js.map": "/example-giving-app/static/js/main.51939f2e.js.map",
-    "787.d5d9ebd6.chunk.js.map": "/example-giving-app/static/js/787.d5d9ebd6.chunk.js.map"
+    "main.css": "/example-nonprofit-search-app/static/css/main.b0c3638e.css",
+    "main.js": "/example-nonprofit-search-app/static/js/main.266a1d06.js",
+    "static/js/787.adcf84e3.chunk.js": "/example-nonprofit-search-app/static/js/787.adcf84e3.chunk.js",
+    "index.html": "/example-nonprofit-search-app/index.html",
+    "main.b0c3638e.css.map": "/example-nonprofit-search-app/static/css/main.b0c3638e.css.map",
+    "main.266a1d06.js.map": "/example-nonprofit-search-app/static/js/main.266a1d06.js.map",
+    "787.adcf84e3.chunk.js.map": "/example-nonprofit-search-app/static/js/787.adcf84e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0c3638e.css",
-    "static/js/main.51939f2e.js"
+    "static/js/main.266a1d06.js"
   ]
 }
